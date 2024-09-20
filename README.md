@@ -31,3 +31,24 @@ To use the executable file, you need to run the following command:
 ```bash
 ./dist/main
 ```
+
+## How to run
+
+Linux (arch btw): requires `tk` package
+
+```bash
+sudo pacman -S tk
+```
+
+Then install the dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+And run the script
+
+```bash
+python main.py
+```
+
